@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  max-width: 864px;
-  margin: 0 auto;
   background: ${({ theme }) => theme['base-profile']};
   margin-top: calc(0px - (212px - calc(212px / 2)));
 
